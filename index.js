@@ -91,8 +91,14 @@
 // console.log("The Modulous of Two numbers is "+calculator(10,9,'%'));
 // console.log("The exponential of Two numbers is "+calculator(10,9,'^'));
 
-let name="Satya";
-let age=22;
-console.log("My..... ..name is "+ name +". she is "+age);
-console.log(`My..... ..name is ${name}. she is ${age}`);
+// let name="Satya";
+// let age=22;
+// console.log("My..... ..name is "+ name +". she is "+age);
+// console.log(`My..... ..name is ${name}. she is ${age}`);
+
+//DOM concept
+ let buchi=document.getElementById("satya");
+ console.log(buchi);
+ buchi.innerText=`HI THIS IS SATYA`;
+ buchi.innerHTML=`<b>HI THIS IS SATYA</b>`;
 
