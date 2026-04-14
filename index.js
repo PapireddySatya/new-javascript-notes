@@ -97,8 +97,21 @@
 // console.log(`My..... ..name is ${name}. she is ${age}`);
 
 //DOM concept
- let buchi=document.getElementById("satya");
- console.log(buchi);
- buchi.innerText=`HI THIS IS SATYA`;
- buchi.innerHTML=`<b>HI THIS IS SATYA</b>`;
+//  let buchi=document.getElementById("satya");
+// console.log(document.body);
+
+//  console.log(buchi);
+//  buchi.innerText=`HI THIS IS SATYA`;
+//  buchi.innerHTML=`<b>HI THIS IS SATYA</b>`;
+let box=document.getElementsByClassName("box");
+let para=document.getElementsByClassName("para");
+
+box[1].innerHTML="bye";
+
+
+para[0].innerHTML="super";
+
+
+
+
 
