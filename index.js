@@ -92,7 +92,7 @@
 // console.log("The exponential of Two numbers is "+calculator(10,9,'^'));
 
 let name="Satya";
-let age="22";
+let age=22;
 console.log("My..... ..name is "+ name +". she is "+age);
 console.log(`My..... ..name is ${name}. she is ${age}`);
 
