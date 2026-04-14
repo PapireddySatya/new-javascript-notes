@@ -53,41 +53,46 @@
 // console.log(add(9,10));
 
 //anonyms function
-const myFun =function(num1,num2)
-{
-    return num1+num2;
-}
-console.log(myFun(10,10));
-function calculator(a, b, operator)
-{
-    switch(operator)
-    {
-        case  '+':
-             return a+b;
-             break;
-        case '-':
-            return a-b;
-            break;
-        case '*':
-            return a*b;
-            break;
-        case '/':
-            return a/b;
-            break;
-        case '%':
-            return a%b;
-            break;
-        case '^':
-            return Math.pow(a,b);
-            break;
-    }
+// const myFun =function(num1,num2)
+// {
+//     return num1+num2;
+// }
+// console.log(myFun(10,10));
+// function calculator(a, b, operator)
+// {
+//     switch(operator)
+//     {
+//         case  '+':
+//              return a+b;
+//              break;
+//         case '-':
+//             return a-b;
+//             break;
+//         case '*':
+//             return a*b;
+//             break;
+//         case '/':
+//             return a/b;
+//             break;
+//         case '%':
+//             return a%b;
+//             break;
+//         case '^':
+//             return Math.pow(a,b);
+//             break;
+//     }
 
 
-}
-console.log("The addition of Two numbers is "+calculator(10,9,'+'));
-console.log("The subtraction of Two numbers is "+calculator(10,9,'-'));
-console.log("The Multiplication of Two numbers is "+calculator(10,9,'*'));
-console.log("The divison of Two numbers is "+calculator(10,9,'/'));
-console.log("The Modulous of Two numbers is "+calculator(10,9,'%'));
-console.log("The exponential of Two numbers is "+calculator(10,9,'^'));
+// }
+// console.log("The addition of Two numbers is "+calculator(10,9,'+'));
+// console.log("The subtraction of Two numbers is "+calculator(10,9,'-'));
+// console.log("The Multiplication of Two numbers is "+calculator(10,9,'*'));
+// console.log("The divison of Two numbers is "+calculator(10,9,'/'));
+// console.log("The Modulous of Two numbers is "+calculator(10,9,'%'));
+// console.log("The exponential of Two numbers is "+calculator(10,9,'^'));
+
+let name="Satya";
+let age="22";
+console.log("My..... ..name is "+ name +". she is "+age);
+console.log(`My..... ..name is ${name}. she is ${age}`);
 
